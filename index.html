@@ -21,11 +21,15 @@
 
 <body>
     <header>
+      
         <div class="user">
             <img src="port.png" alt="">
+            </div>
+             <!--
             <h3 class="name">Saurav Gaur</h3>
             <p class="post">FullStack WebDoveloper</p>
-        </div>
+        </div>-->
+
 
         <nav class="navbar">
             <ul>
@@ -33,7 +37,9 @@
                 <li class="links"><a href="#about">About</a></li>
                 <li class="links"><a href="#education">Education</a></li>
                 <li class="links"><a href="#skills">Skills</a></li>
-                <li class="links"><a href="#contact">Contact</a></li>
+                <li class="links"><a href="#Projects">Projects</a></li>
+               
+                <li class="links"><a href="#contact">ContactME</a></li>
             </ul>
         </nav>
     </header>
@@ -41,11 +47,48 @@
         <div id="menu" class="fas fa-bars"></div>
 
         <section class="home" id="home">
-            <h3>HI THERE !</h3>
-            <h1>I'M <span> Saurav Gaur</span></h1>
-            <p>Programmer || FullStack WebDoveloper || Youtuber</p>
+           
+            <div class="hero-section">
 
+                
+              
+                <div class="hero-section-left">
+                    <div class="hero-section-heading">Hi!! Saurav Gaur</div>
+
+                    <div class="hero-section-sub-heading">
+                        I am a <span class="role"></span>
+                    </div>
+
+                    <div class="hero-section-description">
+                        i am a Software Engineer here is my portfolio website,Here you'ill learn about my journey
+                        as a software developer.
+                    </div>
+                </div>
+                
             <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+            </div>
+
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <script src="https://kit.fontawesome.com/58a810656e.js" crossorigin="anonymous"></script>
+            <script>
+              var typeData = new Typed(".role", {
+                strings: [
+                  "Full Stack Developer",
+                  "Web Developer",
+                  "Youtuber",
+                  "Backend Developer",
+                  "Coder",
+                ],
+                loop: true,
+                typeSpeed: 100,
+                backSpeed: 80,
+                backDelay: 1000,
+              });
+            </script>
+           <!-- <h3>HI THERE !</h3>
+            <h1 >I'M <span> Saurav Gaur</span></h1>
+            <p>Programmer || FullStack WebDoveloper || Youtuber</p>-->
+
         </section>
     </div>
     <!--  about section-->
@@ -56,11 +99,11 @@
                 <div class="info">
                     <h3><span>name:</span>Saurav Gaur</h3>
                     <h3><span>age:</span> 21 </h3>
-                    <h3><span>Pursuing Degree:</span>B.TECH(CS)</h3>
+                    <h3><span>Pursing Degree:</span>B.TECH(CS)</h3>
                     <h3><span>Post:</span>FullStack Web Doveloper</h3>
                     <h3><span>Communication Language:</span>Hindhe || English</h3>
                     <a
-                        href="https://drive.google.com/file/d/1EvUaabMXunfZd3sNiG6g4bGk3oNT105O/view?usp=share_link">
+                        href="https://docs.google.com/document/d/1PjqQF57c1XhkwWCFGXbaxfmo7QF8ta_-/edit?usp=sharing&ouid=117622712215406930151&rtpof=true&sd=true">
                         <button class="btn" Dowload> Dowload CV <i class="fas fa-download"></i></button></a>
                 </div>
                 <div class="counter">
@@ -106,6 +149,12 @@
                 <h3>12Th</h3>
                 <p> K S public school Dholpur(328001) Rajsthan ,RBSE Board</p>
             </div>
+            <div class="box">
+                <i class="fas fa-graduation-cap"></i>
+                <span>2017</span>
+                <h3>RSCIT</h3>
+                <p> Insttuite of RSCIT ,Kota univercity</p>
+            </div>
 
             <div class="box">
                 <i class="fas fa-graduation-cap"></i>
@@ -114,44 +163,178 @@
                 <p> R.K.V.P public school Dholpur(328001) Rajsthan ,RBSE Board</p>
             </div>
 
-            <div class="box">
-                <i class="fas fa-graduation-cap"></i>
-                <span>2017</span>
-                <h3>RSCIT</h3>
-                <p> Insttuite of RSCIT ,Kota univercity</p>
-            </div>
+           
 
         </div>
     </section>
 
     <section class="skills" id="skills">
-        <h1 class="heading">My<span>Skills</span> </h1>
-        <div class="box-container">
-            <div class="box">
-                <img src="c.png" width="10 alt="">
+        <h1 class="heading"><span>Skill</span>S </h1>
+        <div id="skills" class="container skills-container ">
+           
+  
+            <div class="skill-container-left">
+              <h2 class="skill-heading">
+                <span class="caps">M</span>e and
+                <br />
+                MyTech Stack
+              </h2>
+  
+              <div class="skill-subHeading">
+                <p>
+                  Hi Everyone My name is Saurav gaur I am a Full Stack Web Developer I
+                  have been working for last 1 Years and
+                   Currently I am
+                  working on NextJs and Making Beautiful UI-UX are my fey features
+                </p>
+                
+              </div>
             </div>
-            <div class=" box">
-                <img src="cpp.png" alt="">
+  
+            <div class="skill-container-right">
+              <img src="/blob vector.png" class="blob-style" alt="" />
+  
+              <img src="/html.png" alt="" class="skills-logo" />
+              <img src="/CSS.png" alt="" class="skills-logo" />
+              <img src="/Javascript.svg" alt="" class="skills-logo" />
+              <img src="./py.png" alt="" class="skills-logo" />
+              <img src="/sql.png" alt="" class="skills-logo" />
+             
+              <img src="/Tailwind.png" alt="" class="skills-logo" />
+              <img src="/Bootstrap.svg" alt="" class="skills-logo" />
+             
+              <img src="/Git.svg" alt="" class="skills-logo" />
+              <img src="/Github.svg" alt="" class="skills-logo" />
+             
+              <img src="/MongoDB.svg" alt="" class="skills-logo" />
+              <img src="./c.png" alt="" class="skills-logo" />
+              <img src="./cpp.png" alt="" class="skills-logo" />
+              
             </div>
+          
+          
+          
+          </div>
+  
+      </div>
+    </section>
 
-            <div class="box">
-                <img src="py.png" alt="">
+    <!--Project Section-->
+
+    <section class="Projects" id="Projects">
+       
+
+
+
+        <div class="project-section">
+            <h2 class="page-header">Projects</h2>
+
+            <div class="project-container">
+                <div class="project-card" id="project1">
+                    <div class="project-number project-number-right">01</div>
+                    <div class="project-content project-content-left">
+
+                        <div class="project-skills-container">
+                            <img class="project-skill" src="/HTML.png" alt="" />
+                            <img class="project-skill" src="/CSS.png" alt="" />
+                            <img class="project-skill" src="/Bootstrap.svg" alt="" />
+                            <img class="project-skill" src="/Javascript.svg" alt="" />
+                            <img class="project-skill" src="/py.png" alt="" />
+                            <img class="project-skill" src="/sql.png" alt="" />
+                            
+                        </div>
+
+                        <h2 class="project-heading">LeadGeneration</h2>
+
+                        <p class="project-subHeading">Its is a employee management project. 
+                            
+                        </p>
+                        <div class="btn-grp">
+                            <button class="btn btn-project"><a href="https://youtu.be/6ng4O3nwCyY" style="color: aliceblue;"> Read More</a></button>
+                            <a href="https://github.com/saurav8058">
+                            <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                            </a>
+                           
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" id="project2">
+                  <div class="project-number project-number-left">02</div>
+                  <div class="project-content project-content-right">
+                    <div class="project-skill-container">
+                        <img class="project-skill" src="/HTML.png" alt="" />
+                        <img class="project-skill" src="/CSS.png" alt="" />
+                        <img class="project-skill" src="/Bootstrap.svg" alt="" />
+                        <img class="project-skill" src="/Javascript.svg" alt="" />
+                        <img class="project-skill" src="/py.png" alt="" />
+                        <img class="project-skill" src="/sql.png" alt="" />
+                    </div>
+                    <h2 class="project-heading">PayNrent</h2>
+                    <p class="project-sub-heading">
+                        This Car Rental System project will enable the user to rent a vehicle. <br> The user shall login to the system and check for availability of cars. The user specifies a type of car and the journey date and time. 
+                    </p>
+                    <div class="btn-group">
+                      <button class="btn btn-project"><a href="https://youtu.be/6ng4O3nwCyY" style="color: aliceblue;">ReadMore</a></button>
+                      <a href="https://github.com/saurav8058">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                     
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="project-card" id="project3">
+                  <div class="project-number project-number-right">03</div>
+                  <div class="project-content project-content-left">
+                    <div class="project-skill-container">
+                        <img class="project-skill" src="/HTML.png" alt="" />
+                        <img class="project-skill" src="/CSS.png" alt="" />
+                        <img class="project-skill" src="/Bootstrap.svg" alt="" />
+                    </div>
+          
+                    <h2 class="project-heading">WhichOne Best</h2>
+                    <p class="project-sub-heading">
+                      A Website about programming Language.
+                    </p>
+                    <div class="btn-group">
+                      <button class="btn btn-project"> <a href="https://youtu.be/DJT9Wr384BY" style="color: aliceblue;">Read More</a></button>
+                      <a href="">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="https://github.com/saurav8058">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+          
+                <div class="project-card" id="project4">
+                  <div class="project-number project-number-left">04</div>
+                  <div class="project-content project-content-right">
+                    <div class="project-skill-container">
+                        <img class="project-skill" src="/HTML.png" alt="" />
+                        <img class="project-skill" src="/CSS.png" alt="" />
+                        <img class="project-skill" src="/Bootstrap.svg" alt="" />
+                        <img class="project-skill" src="/Javascript.svg" alt="" />
+                    </div>
+                    <h2 class="project-heading">portfolio</h2>
+                    <p class="project-sub-heading">
+                       Own Portfolio
+                    </p>
+                    <div class="btn-group">
+                      <button class="btn btn-project"><a href="https://youtube.com/shorts/TKX-VU4EIBU?feature=share" style="color: aliceblue;">ReadMore</a></button>
+                      <a href="https://github.com/saurav8058">
+                        <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                      </a>
+                      <a href="https://saurav-gaur.netlify.app/">
+                        <i title="Live Link" class="fa-solid fa-link icon"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
             </div>
-            <div class="box">
-                <img src="html.png" alt="">
-            </div>
-            <div class="box">
-                <img src="css.png" alt="">
-            </div>
-            <div class="box">
-                <img src="js.png" alt="">
-            </div>
-            <div class="box">
-                <img src="sql.png" alt="">
-            </div>
-            <div class="box">
-                <img src="django.png" alt="">
-            </div>
+                <h1>More......</h1>
         </div>
     </section>
 
@@ -186,12 +369,37 @@
 
     <div class="icons">
         <i class="fa "><img src="insta.png" width="23" alt=""><a
-                href="https://instagram.com/saurav_.gaur?igshid=ZDdkNTZiNTM=">Insta</a></i><br>
+                href="https://instagram.com/saurav_.gaur?igshid=ZDdkNTZiNTM=">Instagram</a></i><br>
         <i class="fa "><img src="git.png" width="25" alt=""><a href="https://github.com/saurav8058">github</a></i><br>
         <i class="fa "><img src="li.png" width="25" alt=""><a
-                href="https://www.linkedin.com/in/saurav-gaur-7072811bb">ln</a></i>
+                href="https://www.linkedin.com/in/saurav-gaur-7072811bb">linkdin</a></i>
 
     </div>
+
+    <footer>
+        <div class="container">
+          <div class="footer-wrapper">
+            <div class="footer-faded-text">Saurav Gaur</div>
+
+            <div class="link-wrapper">
+              <div>
+                <a href="#home"><i class="fa fa-home" style="font-size:24px"></i></a>
+              </div>
+              
+            </div>
+
+            <div class="icon-wrapper">
+           
+              
+          
+            <a href="whatsapp:contact=7240341075@s.whatsapp.com&message="I.d like to chat with you> <i class="fa-regular fa fa-whatsapp icon"></i></a> 
+            </div>
+
+          </div>
+        </div>
+      </footer>
+
+  </div>
 
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
