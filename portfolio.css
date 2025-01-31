@@ -124,7 +124,7 @@ header{
 header .user img{
 
     height: 17rem;
-    width: 17rem;
+    width: 14rem;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
@@ -940,7 +940,7 @@ svg{
   }
 
   #project1{
-    background-image: url(/Proj1.png) ;
+    background-image: url(/Project1.png) ;
     background-size:     82rem;                      
     background-repeat:   no-repeat;
     
@@ -949,18 +949,18 @@ svg{
 
   #project2{
     margin-left:120px;
-    background-image: url(/proj2.png);
+    background-image: url(/project2.png);
     background-size:     82rem 45rem;                      
     background-repeat:   no-repeat
   }
   #project3{
-    background-image: url(/proj3.png);
+    background-image: url(/project3.png);
     background-size:     82rem;                      
     background-repeat:   no-repeat
   }
   #project4{
     margin-left:120px;
-    background-image: url(/Proj4.png);
+    background-image: url(/Project4.png);
     background-size:     82rem;                      
     background-repeat:   no-repeat
   }
@@ -1028,7 +1028,7 @@ svg{
     }
 
     #project1{
-        background-image: url(/Proj1.png) ;
+        background-image: url(/Project1.png) ;
         background-size:     50rem 38rem;                      
         background-repeat:   no-repeat;
         
@@ -1036,18 +1036,18 @@ svg{
       }
       #project2{
        
-        background-image: url(/proj2.png);
+        background-image: url(/project2.png);
         background-size:     50rem 38rem;                     
         background-repeat:   no-repeat
       }
       #project3{
-        background-image: url(/proj3.png);
+        background-image: url(/project3.png);
         background-size:     50rem 38rem;                      
         background-repeat:   no-repeat
       }
       #project4{
       
-        background-image: url(/Proj4.png);
+        background-image: url(/Project4.png);
         background-size:     50rem 38rem;                    
         background-repeat:   no-repeat
       }
